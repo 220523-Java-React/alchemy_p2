@@ -1,4 +1,4 @@
-# Alchemy_P2
+# Alchemy Gaming
 ## Overview 
 Alchemy will build a fullstack application with this serving as the backend portion of the project. The api portion will handle many of the CRUD operations and will handle the task of establishing a connection to the database.
 
