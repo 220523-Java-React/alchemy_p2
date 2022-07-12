@@ -1,6 +1,6 @@
 # Alchemy Gaming
 ## Overview 
-Alchemy will build a fullstack application with this serving as the backend portion of the project. The api portion will handle many of the CRUD operations and will handle the task of establishing a connection to the database.
+Alchemy Gaming aims to create a one stop shop that meets the needs of all gamers. Players will need to create an account and login before they are able to access more features. Once logged in, players will be able to make the site their own as they select themes and customize their profiles. The site will have a vareiety of games for players to choose between to allow everyone a chance at a high leaderboard ranking.Each game will have various difficulty levels to choose from and upon winning a game, players will be rewarded with experience and tokens, Experience will be used to level up and tokens will be displayed on the players profile. Games can be quit and restarted at any point and players are encouraged to try increasing difficulties since tokens rewarded scale with difficulty. 
 
 ## User Stories
 - [ ] NonUsers can create an account and login
@@ -17,6 +17,8 @@ Alchemy will build a fullstack application with this serving as the backend port
 ## Stretch Goals
 - [ ] Reward Nth user (100th player get a free level up)
 - [ ] Track players best game to display on profile
+- [ ] Allow players to select themes for the site
+- [ ] increase tokens depending on difficulty
 
 ## Data Tables
 ### Leaderboard
