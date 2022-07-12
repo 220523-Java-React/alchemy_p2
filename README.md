@@ -4,7 +4,7 @@ Alchemy Gaming aims to create a one stop shop that meets the needs of all gamers
 
 The backend of this application will use RESTful Java API to leverage the Spring Framework while the frontend UI will be built with React.
 
-Some notable frameworks include: Spring (Spring MVC, Spring DATA JPA, Spring Web, Spring Boot DEV Tools, Spring Security) Log4J, JUnit, and Swagger
+Some notable frameworks include: Spring (Spring MVC, Spring DATA JPA, Spring Web, Spring Boot DEV Tools, Spring Security) Log4J, JUnit, and OpenAPI
 
 ## User Stories
 - [ ] NonUsers can create an account and login
