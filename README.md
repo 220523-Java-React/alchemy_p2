@@ -32,9 +32,20 @@ this serving as the backend portion of the project. The API portion will handle 
 ### User
 - userId
 - userRole
+- firstName
+- lastName
 - userName
 - Password
 - AuthToken
+
+### Player
+- playerId
+- firstName
+- lastName
+- userName
+- password
+- rank
+- tokens
 
 ### Game
 - gameId
