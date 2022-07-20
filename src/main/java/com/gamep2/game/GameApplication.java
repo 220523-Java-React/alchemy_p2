@@ -2,6 +2,7 @@ package com.gamep2.game;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.w3c.dom.ls.LSOutput;
 
 @SpringBootApplication
 public class GameApplication {
@@ -10,5 +11,7 @@ public class GameApplication {
 		SpringApplication.run(GameApplication.class, args);
 
 	}
+
+
 
 }
