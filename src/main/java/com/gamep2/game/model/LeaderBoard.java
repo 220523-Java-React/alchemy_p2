@@ -18,10 +18,20 @@ public class LeaderBoard {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer leaderBoardId;
 
-    @Column(unique = true, nullable = false)
+    @Column(unique = true, nullable = true)
     private String title;
 
+    @Column(nullable = true)
+    private Integer rank;
+
+    @Column(nullable = true)
+    private Integer userName;
+
+    @Column(nullable = true)
     private Integer score;
+
+    @Column(nullable = true)
+    private Integer Level;
 
 
 }

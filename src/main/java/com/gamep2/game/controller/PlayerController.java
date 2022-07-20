@@ -1,8 +1,8 @@
-package com.gamep2.game.Controller;
+package com.gamep2.game.controller;
 
-import com.gamep2.game.Repository.GameRepository;
-import com.gamep2.game.Repository.PlayerRepository;
-import com.gamep2.game.Service.PlayerService;
+import com.gamep2.game.repository.GameRepository;
+import com.gamep2.game.repository.PlayerRepository;
+import com.gamep2.game.service.PlayerService;
 import com.gamep2.game.model.Game;
 import com.gamep2.game.model.Player;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,11 +18,12 @@ public class PlayerController{
 
     private final PlayerService playerService;
 
-    @Autowired
+    /*@Autowired
     GameRepository gameRepository;
 
     @Autowired
     PlayerRepository playerRepository;
+    */
 
     public PlayerController(PlayerService playerService) {
         this.playerService = playerService;
@@ -39,16 +40,16 @@ public class PlayerController{
         return playerService.createPlayer(player);
     }
 
-    @PutMapping ("/{playerId}/games/{gameId}")
+    /*@PutMapping ("/{playerId}/games/{gameId}")
     Player relateGameToPlayer(
             @PathVariable Integer playerId,
             @PathVariable Integer gameId
         ) {
         Player player = playerRepository.getReferenceById(playerId);
         Game game = gameRepository.getReferenceById(gameId);
-        player.playedgame(game);
+        player.playedGame(game);
         return playerRepository.save(player);
         }
-
+     */
 
 }

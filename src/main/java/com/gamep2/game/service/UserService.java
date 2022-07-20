@@ -1,9 +1,8 @@
-package com.gamep2.game.Service;
+package com.gamep2.game.service;
 
-
-import com.gamep2.game.Repository.UserRepository;
 import com.gamep2.game.exception.UserNotFoundException;
 import com.gamep2.game.model.User;
+import com.gamep2.game.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 

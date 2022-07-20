@@ -21,9 +21,10 @@ public class Game {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer gameId;
 
-    //@JsonIgnore
-    @ManyToMany(mappedBy = "playergames")
+    /*@JsonIgnore
+    @ManyToMany(mappedBy = "playerGames")
     private Set<Player> players = new HashSet<>();
+    */
 
     @Column(unique = true, nullable = false)
     private String name;

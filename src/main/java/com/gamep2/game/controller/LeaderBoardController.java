@@ -1,9 +1,8 @@
-package com.gamep2.game.Controller;
+package com.gamep2.game.controller;
 
 
-import com.gamep2.game.Service.LeaderBoardService;
+import com.gamep2.game.service.LeaderBoardService;
 import com.gamep2.game.model.LeaderBoard;
-import com.gamep2.game.model.Player;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

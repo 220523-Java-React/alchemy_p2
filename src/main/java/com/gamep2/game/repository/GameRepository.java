@@ -1,4 +1,4 @@
-package com.gamep2.game.Repository;
+package com.gamep2.game.repository;
 
 import com.gamep2.game.model.Game;
 import org.springframework.data.jpa.repository.JpaRepository;

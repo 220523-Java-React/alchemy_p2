@@ -1,7 +1,7 @@
 package com.gamep2.game.RepositoryTests;
 
 
-import com.gamep2.game.Repository.UserRepository;
+import com.gamep2.game.repository.UserRepository;
 import com.gamep2.game.model.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
