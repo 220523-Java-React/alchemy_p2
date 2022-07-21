@@ -24,22 +24,22 @@ public class Player {
     private Integer playerId;
 
 
-    @JsonIgnore
-    @ManyToMany()
-    @JoinTable(
-            name = "players_games",
-            joinColumns = @JoinColumn(name = "player_id"),
-            inverseJoinColumns = @JoinColumn(name = "game_id")
-    )
-    private Set<Game> playergames = new HashSet<>();
+//    @JsonIgnore
+//    @ManyToMany()
+//    @JoinTable(
+//            name = "players_games",
+//            joinColumns = @JoinColumn(name = "player_id"),
+//            inverseJoinColumns = @JoinColumn(name = "game_id")
+//    )
+//    private Set<Game> playergames = new HashSet<>();
 
 
 
-    @Column(nullable = true)
-    private String firstName;
-
-    @Column(nullable = true)
-    private String lastName;
+//    @Column(nullable = true)
+//    private String firstName;
+//
+//    @Column(nullable = true)
+//    private String lastName;
 
     @Column(unique = true, nullable = false)
     private String userName;
@@ -51,7 +51,7 @@ public class Player {
     private int level;
 
 
-    public void playedgame(Game game) {
-        playergames.add(game);
-    }
+//    public void playedgame(Game game) {
+//        playergames.add(game);
+//    }
 }
