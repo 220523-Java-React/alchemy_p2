@@ -18,7 +18,7 @@ public class LeaderBoard {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer leaderBoardId;
 
-    @Column(unique = true, nullable = false)
+    @Column(unique = false, nullable = false)
     private String title;
 
     private Integer score;

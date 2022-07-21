@@ -35,10 +35,10 @@ public class Player {
 
 
 
-    @Column(nullable = false)
+    @Column(nullable = true)
     private String firstName;
 
-    @Column(nullable = false)
+    @Column(nullable = true)
     private String lastName;
 
     @Column(unique = true, nullable = false)
@@ -46,6 +46,9 @@ public class Player {
 
     @Column(nullable = false)
     private String password;
+
+    @Column(nullable = true)
+    private int level;
 
 
     public void playedgame(Game game) {

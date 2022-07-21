@@ -20,11 +20,11 @@ public class User {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer userId;
 
-    @Column(nullable = false)
-    private String firstName;
+//    @Column(nullable = false)
+//    private String firstName;
 
-    @Column(nullable = false)
-    private String lastName;
+//    @Column(nullable = false)
+//    private String lastName;
 
     @Column(unique = true, nullable = false)
     private String userName;

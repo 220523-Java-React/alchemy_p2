@@ -25,7 +25,7 @@ public class Game {
     @ManyToMany(mappedBy = "playergames")
     private Set<Player> players = new HashSet<>();
 
-    @Column(unique = true, nullable = false)
+    @Column(unique = false, nullable = false)
     private String name;
 
     @Column(nullable = false)

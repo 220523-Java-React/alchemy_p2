@@ -39,16 +39,16 @@ public class PlayerController{
         return playerService.createPlayer(player);
     }
 
-    @PutMapping ("/{playerId}/games/{gameId}")
-    Player relateGameToPlayer(
-            @PathVariable Integer playerId,
-            @PathVariable Integer gameId
-        ) {
-        Player player = playerRepository.getReferenceById(playerId);
-        Game game = gameRepository.getReferenceById(gameId);
-        player.playedgame(game);
-        return playerRepository.save(player);
-        }
+//    @PutMapping ("/{playerId}/games/{gameId}")
+//    Player relateGameToPlayer(
+//            @PathVariable Integer playerId,
+//            @PathVariable Integer gameId
+//        ) {
+//        Player player = playerRepository.getReferenceById(playerId);
+//        Game game = gameRepository.getReferenceById(gameId);
+//        player.playedgame(game);
+//        return playerRepository.save(player);
+//        }
 
 
 }
