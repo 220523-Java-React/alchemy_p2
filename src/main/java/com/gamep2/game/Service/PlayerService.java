@@ -32,9 +32,12 @@ public class PlayerService {
         return playerRepository.findAll();
     }
 
-    public Player getPlayerById(Integer id){
-        return playerRepository.findById(id).orElseThrow(() -> new UserNotFoundException());
-    }
+//    public Player getPlayerById(int id){
+//        return playerRepository.findById(id).orElseThrow(() -> new UserNotFoundException());
+//    }
+//    public Player getPlayersByUserName(String userName){
+//        return playerRepository.findByUsername(userName).orElseThrow(() -> new UserNotFoundException());
+//    }
 
     //Delete
 }

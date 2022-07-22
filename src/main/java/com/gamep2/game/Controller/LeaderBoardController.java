@@ -23,6 +23,8 @@ public class LeaderBoardController {
         return leaderBoardService.getAllLeaderboards();
     }
 
+
+
     @PostMapping
     public LeaderBoard createLeaderBoard(@RequestBody LeaderBoard leaderBoard) {
         return leaderBoardService.createLeaderBoard(leaderBoard);

@@ -34,10 +34,22 @@ public class PlayerController{
         return playerService.getAllPlayers();
     }
 
+
+
+
     @PostMapping
     public Player createPlayer(@RequestBody Player player) {
         return playerService.createPlayer(player);
     }
+
+
+//    @GetMapping("/extra/{username}")
+//    public Player getUserByUsername(@PathVariable String username) {
+//        return playerService.getPlayersByUserName(username);
+//    }
+
+
+
 
 //    @PutMapping ("/{playerId}/games/{gameId}")
 //    Player relateGameToPlayer(
@@ -49,6 +61,7 @@ public class PlayerController{
 //        player.playedgame(game);
 //        return playerRepository.save(player);
 //        }
+
 
 
 }

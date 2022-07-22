@@ -15,12 +15,13 @@ import javax.persistence.*;
 public class LeaderBoard {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer leaderBoardId;
 
-    @Column(unique = false, nullable = false)
-    private String title;
+    @Column(unique = false, nullable = true)
+    private String userName;
 
+    @Column
     private Integer score;
 
 
